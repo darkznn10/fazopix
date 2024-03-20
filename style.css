@@ -13,7 +13,22 @@
         border-bottom: 2px solid var(--subcor);
         background-color: rgb(255, 245, 245);
 }
-
+    header div{
+        text-align: center;
+}
+    header div a{
+        color: red;
+        font-size: 20px;
+        line-height: 30px;
+        margin: 0 14px;
+        font-family: "Cabin", sans-serif;
+        text-decoration:none;
+    }
+    
+header div a:hover {
+    color: rgb(0, 116, 10);
+    transition: color 700ms;
+}
 
 .links {
     text-align: center;
@@ -21,11 +36,13 @@
 
 .links a {
     color: rgb(0, 0, 0);
+    color: rgb(255, 0, 0);
     font-size: 20px;
     line-height: 30px;
     margin: 0 16px;
     text-decoration: none;
     font-family: "Cabin", sans-serif;
+
 }
 
 .links a:hover {
@@ -36,17 +53,24 @@
 #box {
     text-align: center;
     padding: 32px;
-   
+
 
 }
 
 #box img {
     border-radius: 50%;
+
     border: 5px solid rgb(0, 0, 0);
     margin-bottom: 32px;
     max-width: 400px;
     max-height: 400px;
     width: 400px;
+
+    border: 5px solid rgb(255, 0, 0);
+    margin-bottom: 32px;
+    max-width: 400px;
+    max-height: 500px;
+
 }
 
 #box h1 {
@@ -67,14 +91,12 @@
     margin: 32px auto;
     font-size: 24px;
     line-height: 34px
-    
 }
 
 #box a{
     text-decoration: none;
     color: red;
 }
-
 
  :root{
     --subcor: #414141;
@@ -89,3 +111,4 @@
  #linksFooter a:hover {
    color:red;
  }
+
