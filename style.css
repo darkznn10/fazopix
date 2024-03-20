@@ -1,0 +1,91 @@
+@import url('https://fonts.googleapis.com/css2?family=Cabin:ital,wght@0,400..700;1,400..700&display=swap');
+       *{
+        margin:0;
+        padding:0;
+        border:0;
+}
+    
+    body{
+            background-color: #ddd8d8
+} 
+    header {
+        padding: 32px;
+        border-bottom: 2px solid var(--subcor);
+        background-color: rgb(255, 245, 245);
+}
+
+
+.links {
+    text-align: center;
+}
+
+.links a {
+    color: rgb(0, 0, 0);
+    font-size: 20px;
+    line-height: 30px;
+    margin: 0 16px;
+    text-decoration: none;
+    font-family: "Cabin", sans-serif;
+}
+
+.links a:hover {
+    color: var(--subcor);
+    transition: 600ms;
+    font-size: 23px;
+}
+#box {
+    text-align: center;
+    padding: 32px;
+   
+
+}
+
+#box img {
+    border-radius: 50%;
+    border: 5px solid rgb(0, 0, 0);
+    margin-bottom: 32px;
+    max-width: 400px;
+    max-height: 400px;
+    width: 400px;
+}
+
+#box h1 {
+    font-size: 42px;
+    line-height: 52px;
+    font-weight: bold;
+}
+#box h2 {
+    font-size: 24px;
+    line-height: 34px;
+    font-weight: normal;
+    margin-top: 8px;
+    opacity: 0.8;
+}
+
+#box p {
+    max-width: 500px;
+    margin: 32px auto;
+    font-size: 24px;
+    line-height: 34px
+    
+}
+
+#box a{
+    text-decoration: none;
+    color: red;
+}
+
+
+ :root{
+    --subcor: #414141;
+ }
+
+ #linksFooter a {
+    color: black;
+    border-bottom: 4px solid black;
+    padding-bottom: 12px;
+ }
+
+ #linksFooter a:hover {
+   color:red;
+ }
