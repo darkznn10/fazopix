@@ -11,7 +11,7 @@
 } 
     header {
         padding: 32px;
-        border-bottom: 2px solid var(--subcor)
+        border-bottom: 2px solid var(--subcor);
         background-color: rgb(255, 245, 245);
 }
     header div{
@@ -31,6 +31,23 @@ header div a:hover {
     transition: color 700ms;
 }
 
+.links {
+    text-align: center;
+}
+
+.links a {
+    color: rgb(255, 0, 0);
+    font-size: 20px;
+    line-height: 30px;
+    margin: 0 16px;
+    text-decoration: none;
+}
+
+.links a:hover {
+    color: var(--subcor);
+    transition: 600ms;
+    font-size: 23px;
+}
 #box {
     text-align: center;
     padding: 32px;
